@@ -4,7 +4,7 @@
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 <meta name="author" content= "Jiayang Lai">
 <meta name="description" content="Jiayang Lai's home page, come and discover more">
-<meta name="keywords" content="赖佳旸,Jiayang Lai,David Lai,Jiayang (David) Lai,Personal Website">
+<meta name="keywords" content="赖佳旸,Jiayang Lai,David Lai,Jiayang (David) Lai,Personal Website,Brock University">
 <title>Jiayang Lai</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,58 +27,6 @@ function typeName() {
   gtag('js', new Date());
 
   gtag('config', 'UA-159043722-1');
-  
-var ConsoleManager={
-            onOpen:function(){
-                alert("Console is opened")
-            },
-            onClose:function(){
-                alert("Console is closed")
-            },
-            init:function(){
-                var self = this;
-                var x = document.createElement('div');
-                var isOpening = false,isOpened=false;
-                Object.defineProperty(x, 'id', {
-                    get:function(){
-                        if(!isOpening){
-                            self.onOpen();
-                            isOpening=true;
-                        }
-                        isOpened=true;
-                    }
-                });
-                setInterval(function(){
-                    isOpened=false;
-                    console.info(x);
-                    console.clear();
-                    if(!isOpened && isOpening){
-                        self.onClose();
-                        isOpening=false;
-                    }
-                },200)
-            }
-        }
-
-        ConsoleManager.onOpen = function(){
-            //Redirect to error page
-            try{
-                window.open('error.html',target='_self');
-            }catch(err){
-                var a = document.createElement("button");
-                    a.onclick=function(){
-                    window.open('error.html',target='_self');
-                }
-                a.click();  
-            }
-        }
-        ConsoleManager.onClose = function(){
-            alert("Console is closed!!!!!")
-        }
-        ConsoleManager.init();
-
-  
-
 
 </script>
 </head>
@@ -87,11 +35,8 @@ var ConsoleManager={
 <div  id='write'  class = 'is-node' > <center>
      <h1 id="demo" ></h1>
      <div>
-         <span>
-             <img src="assets/phone-solid.svg" width="18px" onerror="this.style.display = 'none';">
-             <a href="tel:+1905-341-5998">Phone</a>
-         </span>
-         ·
+         
+         
          <span>
              <img src="assets/envelope-solid.svg" width="18px" onerror="this.style.display = 'none';">
              <a href = "mailto: jl17za@brocku.ca">Email</a>
@@ -135,7 +80,8 @@ var ConsoleManager={
     <h2><a name='header-n29' class='md-header-anchor '></a><img src="assets/reserve.png" width="30px"> Reserves</h2><ul><li><a href="https://brocku-my.sharepoint.com/:p:/r/personal/jl17za_brocku_ca/Documents/Current%20take/ECON%202P46/ECON%202P46%20PROJECT%20DESIGN%20For%20Sharing.pptx?d=w6af93aff28b54a208e9b708bddb179eb&csf=1&e=jQQXpv">ECON 2P46 Project Reserve</a></li></ul></div>
    <footer class="footer">
 <img src="assets/lai.png" width="270px" onerror="this.style.display = 'none';" alt="Jiayang Lai icon">
-<img src="assets/Wuhan.png" width="270px" onerror="this.style.display = 'none';">
+<!--a href="http://english.wh.gov.cn/index.html"><img src="assets/Wuhan.png"  width="270px" onerror="this.style.display = 'none';"></a-->
+<img src="assets/Wuhan.png"  width="270px" onerror="this.style.display = 'none';">
 <p>INSIDERDAVIDLAI Group. All Rights Reserved |  Recommended Link: <a href="https://krunk.cn/">KRUNK.CN </a></p>
 </footer> 
 </body>
