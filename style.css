@@ -243,7 +243,6 @@ header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Aria
   padding: 16px;
   position: fixed;
   z-index: 1;
-  left: 50%;
   bottom: 30px;
   font-size: 17px;
 }
