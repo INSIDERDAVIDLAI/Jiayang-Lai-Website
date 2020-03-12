@@ -237,7 +237,7 @@ header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Aria
 
   min-width: 250px;
   margin-left: -125px;
-  background-color: #333;
+  background-color:red;
   color: #fff;
   text-align: center;
   border-radius: 2px;
