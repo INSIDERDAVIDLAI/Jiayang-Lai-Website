@@ -1,67 +1,110 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <!--meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'" -->
-    <!--meta content="origin" name="referrer"-->
-    <title>STOP &middot; Arrêtez! &middot; 请留步</title>
-    <meta name="viewport" content="width=device-width">
-    <style type="text/css" media="screen">
-      body {
-        background-color: #f6f8fa;
-        color: #24292e;
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-        font-size: 14px;
-        line-height: 1.5;
-        margin: 0;
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <!--meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'" -->
+  <!--meta content="origin" name="referrer"-->
+  <title>STOP &middot; Arrêtez! &middot; 请留步</title>
+  <meta name="viewport" content="width=device-width">
+  <style type="text/css" media="screen">
+    body {
+      background-color: #f6f8fa;
+      color: #24292e;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .container {
+      margin: 50px auto;
+      max-width: 600px;
+      text-align: center;
+      padding: 0 24px;
+    }
+
+    a {
+      color: #4183c4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      letter-spacing: -1px;
+      line-height: 60px;
+      font-size: 60px;
+      font-weight: 100;
+      margin: 0px;
+      text-shadow: 0 1px 0 #fff;
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.5);
+      margin: 20px 0 40px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 25px 0;
+      padding: 0;
+    }
+
+    li {
+      display: table-cell;
+      font-weight: bold;
+      width: 1%;
+    }
+
+    .logo {
+      display: inline-block;
+      margin-top: 35px;
+    }
+
+    .logo-img-2x {
+      display: none;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+      .logo-img-1x {
+        display: none;
       }
 
-      .container { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
-
-      a { color: #4183c4; text-decoration: none; }
-      a:hover { text-decoration: underline; }
-
-      h1 { letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px; text-shadow: 0 1px 0 #fff; }
-      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0 40px; }
-
-      ul { list-style: none; margin: 25px 0; padding: 0; }
-      li { display: table-cell; font-weight: bold; width: 1%; }
-
-      .logo { display: inline-block; margin-top: 35px; }
-      .logo-img-2x { display: none; }
-      @media
-      only screen and (-webkit-min-device-pixel-ratio: 2),
-      only screen and (   min--moz-device-pixel-ratio: 2),
-      only screen and (     -o-min-device-pixel-ratio: 2/1),
-      only screen and (        min-device-pixel-ratio: 2),
-      only screen and (                min-resolution: 192dpi),
-      only screen and (                min-resolution: 2dppx) {
-        .logo-img-1x { display: none; }
-        .logo-img-2x { display: inline-block; }
+      .logo-img-2x {
+        display: inline-block;
       }
+    }
 
-      #suggestions {
-        margin-top: 35px;
-        color: #ccc;
-      }
-      #suggestions a {
-        color: #666666;
-        font-weight: 200;
-        font-size: 14px;
-        margin: 0 10px;
-      }
+    #suggestions {
+      margin-top: 35px;
+      color: #ccc;
+    }
 
-    </style>
-    <script>
-    	console.log('\n\n' + ' %c  INSIDERDAVIDLAI Group'  + ' ' + ' %c Console detected ' + '\n' , 'color: #fadfa3; background: #030307; padding:5px 0;', ' 	color: #030307; background: #fadfa3; padding:5px 0;');
-console.log("%cSTOP! ", "font-size: 65px; color: #ff0000; text-shadow: 0 0 10px rgba(255,0,0,1); font-style:Helvetica;");
-console.log("%c请留步！", "font-size: 65px; color: #ff0000; text-shadow: 0 0 10px rgba(255,0,0,1); font-style:Helvetica;");
-console.log("%cArrêtez! ", "font-size: 65px; color: #ff0000; text-shadow: 0 0 10px rgba(255,0,0,1); font-style:Helvetica;");
-    </script>
-  </head>
-  <body>
-<!--
+    #suggestions a {
+      color: #666666;
+      font-weight: 200;
+      font-size: 14px;
+      margin: 0 10px;
+    }
+  </style>
+  <script>
+    console.log('\n\n' + ' %c  INSIDERDAVIDLAI Group' + ' ' + ' %c Console detected ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', ' 	color: #030307; background: #fadfa3; padding:5px 0;');
+    console.log("%cSTOP! ", "font-size: 65px; color: #ff0000; text-shadow: 0 0 10px rgba(255,0,0,1); font-style:Helvetica;");
+    console.log("%c请留步！", "font-size: 65px; color: #ff0000; text-shadow: 0 0 10px rgba(255,0,0,1); font-style:Helvetica;");
+    console.log("%cArrêtez! ", "font-size: 65px; color: #ff0000; text-shadow: 0 0 10px rgba(255,0,0,1); font-style:Helvetica;");
+  </script>
+</head>
+
+<body>
+  <!--
 
                                             
  .d8888b.  888                       888    
@@ -76,16 +119,18 @@ Y88b  d88P Y88b.  Y88..88P 888 d88P         这是一个浏览器开发者功能
                            888              
                            888              
 -->
-    <div class="container">
+  <div class="container">
 
-      <h1>¿Why open the console&#8253;</h1>
-      <p>In order to prevent someone change the elements of my resume, I wont't allow anyone change website elements via the console</p>
-      <div id="suggestions">
-        <a href="https://insiderdavid.com/index.html">Back to main page</a> &mdash;
-        <a href="https://insiderdavid.com/resume.html">Back to resume</a> &mdash;
-        <a href="https://www.google.com">Google something</a>
-      </div>
-
+    <h1>¿Why open the console&#8253;</h1>
+    <p>In order to prevent someone change the elements of my resume, I wont't allow anyone change website elements via
+      the console</p>
+    <div id="suggestions">
+      <a href="https://insiderdavid.com/index.html">Back to main page</a> &mdash;
+      <a href="https://insiderdavid.com/resume.html">Back to resume</a> &mdash;
+      <a href="https://www.google.com">Google something</a>
     </div>
-  </body>
+
+  </div>
+</body>
+
 </html>
