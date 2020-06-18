@@ -1271,3 +1271,50 @@ footer {
 .footnote-line {
     white-space: normal;
 }
+
+.countdown {
+    color: #585858;
+    text-align: center;
+}
+
+.countdown .cd-message {
+    display: block;
+    padding: 20px;
+    background: transparent;
+    color: #cc0000;
+    font-family: AlfaSlabOne-Regular, "Trebuchet MS", sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 3em;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.countdown li {
+    font-size: 1.5em !important;
+    padding: 1em !important; margin: 0 !important;
+    display: inline-block !important;
+    list-style-type: none !important;
+    text-transform: uppercase !important;
+}
+
+.countdown li span.time {
+    padding-bottom: 20px !important;
+    display: block !important;
+    font-family: AlfaSlabOne-Regular, "Trebuchet MS", sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 3em !important;
+    color: #cc0000;
+}
+
+.countdown li span.label {
+    letter-spacing: 0.05em;
+    color: #000;
+}
+
+@media only screen and (max-width: 840px) {
+
+    .countdown li { padding: .5em !important; }
+    .countdown li span.time { font-size: 2em !important; padding-bottom: 10px !important; }
+    .countdown li span.label { font-size: .8em !important; }
+}
+
