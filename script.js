@@ -68,7 +68,7 @@ var ConsoleManager={
             //do something later when target is reached
             if (distance < 0) {
                 clearInterval(x);
-              jQuery('.countdown').html("<span class=\"cd-message\">It's the 2021 Canada Games!</span>");
+              jQuery('.countdown').html("<span class=\"cd-message\">The Fall 2020 has begun!</span>");
             }
       
           }, second)
