@@ -1281,7 +1281,7 @@ footer {
     display: block;
     padding: 20px;
     background: transparent;
-    color: gold;
+    color: goldenrod;
     font-family: AlfaSlabOne-Regular, "Trebuchet MS", sans-serif;
     letter-spacing: 0.02em;
     font-size: 3em;
@@ -1303,12 +1303,12 @@ footer {
     font-family: AlfaSlabOne-Regular, "Trebuchet MS", sans-serif;
     letter-spacing: 0.02em;
     font-size: 3em !important;
-    color: black;
+    color: gold;
 }
 
 .countdown li span.label {
     letter-spacing: 0.05em;
-    color: blue;
+    color: black;
 }
 
 @media only screen and (max-width: 840px) {
