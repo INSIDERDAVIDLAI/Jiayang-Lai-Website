@@ -1303,12 +1303,12 @@ footer {
     font-family: AlfaSlabOne-Regular, "Trebuchet MS", sans-serif;
     letter-spacing: 0.02em;
     font-size: 3em !important;
-    color: #cc0000;
+    color: black;
 }
 
 .countdown li span.label {
     letter-spacing: 0.05em;
-    color: #000;
+    color: blue;
 }
 
 @media only screen and (max-width: 840px) {
