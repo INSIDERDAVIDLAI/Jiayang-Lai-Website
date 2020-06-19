@@ -53,7 +53,7 @@ var ConsoleManager={
         hour = minute * 60,
         day = hour * 24;
   
-      let countDown = new Date('Aug 6, 2021 00:08:30').getTime(),
+      let countDown = new Date('Aug 31, 2020 00:08:30').getTime(),
       
           x = setInterval(function() {
       
